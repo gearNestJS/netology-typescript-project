@@ -7,10 +7,13 @@
     "build:dev": "tsc --project ./tsconfig.dev.json --watch",
     "build:prod": "tsc --project ./tsconfig.prod.json"
   },
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
   "author": "Muso Verda",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   }
 }
