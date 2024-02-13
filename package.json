@@ -1,13 +1,14 @@
 {
-  "name": "project-typescirpt",
+  "name": "project-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Next step",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "tsc --project ./tsconfig.dev.json --watch",
+    "build:prod": "tsc --project ./tsconfig.prod.json"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript"],
+  "author": "Muso Verda",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
