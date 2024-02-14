@@ -5,7 +5,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -13,7 +14,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint",
+        "@typescript-eslint/eslint-plugin",
         "eslint-plugin-etc",
         "eslint-plugin-sonarjs",
         "eslint-plugin-unicorn"
