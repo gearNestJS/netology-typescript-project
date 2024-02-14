@@ -8,7 +8,8 @@
     "build:prod": "tsc --project ./tsconfig.prod.json",
     "eslint": "eslint --cache --ext .js,.ts,*.html src",
     "eslint:fix": "eslint \"./src/**/{*.ts,*.js,*.html}\" --fix",
-    "eslint:dump": "eslint --print-config ./eslintrc.json"
+    "eslint:dump": "eslint --print-config ./eslintrc.json",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [
     "typescript"
